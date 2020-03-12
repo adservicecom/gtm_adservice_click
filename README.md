@@ -1,0 +1,2 @@
+# Google Tag Manager Adservice Integration
+The Adservice Click tag should be implemented to fire on All DOM Ready Events, ie. all pages on your website. This tag is neccessary for the Adservice Conversion tag to function properly.
