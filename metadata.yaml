@@ -15,5 +15,5 @@
 homepage: "https://www.adservice.com"
 documentation: "https://api.adservice.com/doc/GTM.md"
 versions:
-  - sha: 634dfdfcb276d0249bc84456ce40c678e8fd1f0c
+  - sha: 1337c0f7438ded989ce1ff596dfbff596b09821c
     changeNotes: Initial Version
