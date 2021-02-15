@@ -13,7 +13,7 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "Adservice Click",
+  "displayName": "Adservice Master Tag",
   "categories": ["AFFILIATE_MARKETING", "ADVERTISING"],
   "brand": {
     "id": "adservice",
@@ -45,12 +45,11 @@ const options = {
   'path': '/'
 };
 
-if (queryPermission('get_url', 'query', 'coid')) {
-  const coid = getQueryParameters('coid');
-  
-  if (coid) {
-    if (queryPermission('set_cookies', 'coid', options)) {
-      var test = setCookie('coid', coid, options);
+if (queryPermission('get_url', 'query', 'asclid')) {
+  const asclid = getQueryParameters('asclid');
+  if (asclid) {
+    if (queryPermission('set_cookies', 'asclid', options)) {
+      var test = setCookie('asclid', asclid, options);
     }
   }
 }
@@ -122,7 +121,7 @@ ___WEB_PERMISSIONS___
                 "mapValue": [
                   {
                     "type": 1,
-                    "string": "coid"
+                    "string": "asclid"
                   },
                   {
                     "type": 1,
